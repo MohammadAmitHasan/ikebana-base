@@ -8,7 +8,7 @@ const Design = () => {
         <Button className="!py-3">OUR COLLECTION</Button>
         <span className="text-gray-500 font-bold">FROM OVER 100 BRANDS</span>
       </div>
-      <h1 className="text-2xl sm:text-3xl lg:text-4xl text-center mb-4 md:mb-8 ">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl  text-center mb-4 md:mb-8 ">
         DESiGN FURNiTURE AT MiSTERDESiGN
       </h1>
       <div className="w-10 h-0.5 mx-auto bg-tan"></div>

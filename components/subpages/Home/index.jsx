@@ -1,3 +1,4 @@
+import AboutUs from './AboutUs';
 import Banner from './Banner';
 import Categories from './Categories';
 import Design from './Design';
@@ -10,6 +11,7 @@ const HomeComponent = () => {
       <Categories />
       <NewOnline />
       <Design />
+      <AboutUs />
     </div>
   );
 };
