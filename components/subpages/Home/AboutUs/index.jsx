@@ -16,12 +16,12 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
-      <div className="col-span-2 lg:bg-secondary lg:h-[700px] relative gap-5">
-        <div className="lg:absolute sm:flex lg:top-10 lg:right-10 xl:top-14 xl:right-14 2xl:right-20 2xl:top20 w-full gap-10">
+      <div className="col-span-2 lg:bg-secondary lg:h-[700px] xl:h-[830px] 2xl:h-[780px] relative gap-5">
+        <div className="lg:absolute sm:flex lg:top-10 lg:right-10 xl:top-14 xl:right-14 2xl:right-20 2xl:top20 w-full gap-5 md:gap-10 space-y-5 sm:space-y-0">
           {aboutUsData?.map((about) => (
             <div
               key={Math.random}
-              className="border border-secondary rounded px-5 py-14 xl:px-14 2xl:px-24 space-y-10 bg-white"
+              className="border border-secondary rounded px-5 py-10 xl:px-14 2xl:px-24 space-y-5 xl:space-y-10 bg-white shadow-lg"
             >
               <div className="relative w-3/4 mx-auto aspect-[4/3]">
                 <Image src={about?.image} alt={about.title} fill />
