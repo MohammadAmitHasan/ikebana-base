@@ -1,7 +1,7 @@
 import Layout from '@/components/layout/layout';
 import HomeComponent from '@/components/subpages/Home';
 
-export default function Home() {
+const HomePage = () => {
   return (
     <main>
       <Layout>
@@ -9,4 +9,6 @@ export default function Home() {
       </Layout>
     </main>
   );
-}
+};
+
+export default HomePage;

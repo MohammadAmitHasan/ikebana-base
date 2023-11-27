@@ -1,17 +1,16 @@
-'use client';
 import { useRef } from 'react';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
-import { Navigation } from 'swiper/modules';
-import 'swiper/react';
+import { Navigation } from 'swiper';
+import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import newOnlineData from '../utils/newOnlineData';
 
 const NewOnline = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
+
   return (
-    <div className="my-20">
-      <h2 className="text-3xl text-center mb-10">NEW ONLiNE</h2>
+    <div className="relative mx-auto max-w-[240px] xs:max-w-[288px] lg:max-w-full">
       <div className="relative mt-3">
         {/* Custom Buttons */}
         <div className="absolute top-[37%] z-50 my-auto cursor-pointer">
@@ -69,9 +68,11 @@ const NewOnline = () => {
           modules={[Navigation]}
           className="h-full w-full"
         >
-          {newOnlineData.map((onlineData) => (
+          {newOnlineData?.map((photo) => (
             <SwiperSlide key={Math.random()}>
-              <div>Hasan</div>
+              <div className="relative aspect-[100/110] h-full cursor-pointer">
+                Hasan
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>
