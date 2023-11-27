@@ -1,12 +1,12 @@
-import Layout from '@/components/layout/layout'
-import HomeComponent from '@/components/subpages/Home'
+import Layout from '@/components/layout/layout';
+import HomeComponent from '@/components/subpages/Home';
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <Layout>
         <HomeComponent />
       </Layout>
     </main>
-  )
+  );
 }
