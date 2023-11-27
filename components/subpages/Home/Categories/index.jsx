@@ -10,7 +10,7 @@ const Categories = () => {
   const [selectedItem, setSelectedItem] = useState(CategoriesItems[0]?.name);
 
   return (
-    <div className="mt-20">
+    <div className="mt-20 px-5">
       <div className=" flex justify-center">
         <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6 items-center">
           {CategoriesItems.map((category) => (
