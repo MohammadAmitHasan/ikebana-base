@@ -1,3 +1,4 @@
+import Button from '@/components/reuseable/Button';
 import Image from 'next/image';
 import { useRef } from 'react';
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
@@ -10,8 +11,8 @@ const NewOnline = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   return (
-    <div className="container mx-auto my-16 md:my-20">
-      <h1 className="text-2xl sm:text-3xl md:text-5xl text-center md:mb-10">
+    <div className="container mx-auto">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl text-center md:mb-10">
         NEW ONLiNE
       </h1>
       <div className="relative mt-3">
@@ -93,6 +94,9 @@ const NewOnline = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+      </div>
+      <div className="flex justify-center my-5">
+        <Button className="!px-16">NEW PRODUCTS</Button>
       </div>
     </div>
   );
