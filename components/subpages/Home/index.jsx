@@ -2,6 +2,7 @@ import AboutUs from './AboutUs';
 import Banner from './Banner';
 import Categories from './Categories';
 import Design from './Design';
+import MisterDesign from './MisterDesign';
 import NewOnline from './NewOnline';
 
 const HomeComponent = () => {
@@ -12,6 +13,7 @@ const HomeComponent = () => {
       <NewOnline />
       <Design />
       <AboutUs />
+      <MisterDesign />
     </div>
   );
 };

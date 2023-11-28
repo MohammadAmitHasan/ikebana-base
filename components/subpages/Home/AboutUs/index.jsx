@@ -16,7 +16,7 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
-      <div className="col-span-2 lg:bg-secondary lg:h-[700px] xl:h-[830px] 2xl:h-[780px] relative gap-5">
+      <div className="col-span-2 lg:bg-secondary lg:h-[700px] xl:h-[830px] 2xl:h-[820px] relative gap-5">
         <div className="lg:absolute sm:flex lg:top-10 lg:right-10 xl:top-14 xl:right-14 2xl:right-20 2xl:top20 w-full gap-5 md:gap-10 space-y-5 sm:space-y-0">
           {aboutUsData?.map((about) => (
             <div
