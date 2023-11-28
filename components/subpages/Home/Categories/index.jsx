@@ -12,6 +12,7 @@ const Categories = () => {
   return (
     <div className="px-5">
       <div className="flex justify-center">
+        {/* Categories Menus */}
         <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6 items-center">
           {CategoriesItems.map((category) => (
             <div

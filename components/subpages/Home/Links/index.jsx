@@ -6,6 +6,7 @@ const Links = () => {
   return (
     <div className="bg-light-primary py-28 !-mt-20 px-2 sm:px-7 lg:px-12">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20">
+        {/* Quick navigation links */}
         {QuickLinks?.map((quick) => (
           <div key={Math.random()} className="">
             <h3 className="mb-10 text-xl md:text-2xl">{quick?.name}</h3>
@@ -23,6 +24,7 @@ const Links = () => {
           </div>
         ))}
 
+        {/* Social media links */}
         <div className="space-y-10">
           <div>
             <h3 className="mb-5 text-xl md:text-2xl">Keep in touch!</h3>
@@ -34,6 +36,7 @@ const Links = () => {
               ))}
             </div>
           </div>
+          {/* Payment Methods */}
           <div>
             <h3 className="mb-5 text-xl md:text-2xl">Payment Methods</h3>
             <Image

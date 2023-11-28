@@ -15,7 +15,7 @@ const NewOnline = () => {
     <div className="container mx-auto">
       <SectionTitle>NEW ONLiNE</SectionTitle>
       <div className="relative mt-3">
-        {/* Custom Buttons */}
+        {/* Custom Buttons for the slider*/}
         <div className="absolute top-[37%] z-50 my-auto cursor-pointer px-2">
           <button
             ref={prevRef}
@@ -35,6 +35,7 @@ const NewOnline = () => {
           </button>
         </div>
 
+        {/* Slider section */}
         <Swiper
           onInit={(swiper) => {
             swiper.params.navigation.prevEl = prevRef.current;
