@@ -14,17 +14,17 @@ const Email = () => {
   console.log(watch('example')); // watch input value by passing the name of it
 
   return (
-    <div className=" bg-light-primary py-20 px-5">
+    <div className="bg-light-primary py-20 px-5 lg:px-12">
       <div className="container mx-auto">
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="lg:flex gap-5 items-center justify-between"
+          className="lg:grid grid-cols-2 2xl:grid-cols-3 gap-20 items-center"
         >
-          <p className="text-center lg:text-left text-xl sm:text-2xl mx-auto md:w-[500px] ">
+          <p className="text-center lg:text-left text-xl sm:text-2xl mx-auto lg:ml-0 md:w-[500px] ">
             Stay up to date! We send out a newsletter twice a week with our
             latest news.
           </p>
-          <div className="flex justify-center lg:justify-start mt-5 flex-wrap gap-5 ">
+          <div className="flex justify-center lg:justify-start mt-5 flex-wrap gap-5  2xl:col-span-2">
             <div className="relative">
               <input
                 placeholder="Email Address"
