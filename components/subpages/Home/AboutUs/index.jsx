@@ -1,6 +1,6 @@
 import Button from '@/components/reuseable/Button';
 import Image from 'next/image';
-import aboutUsData from '../utils/AboutUsData';
+import aboutUsData from '../utils/aboutUsData';
 
 const AboutUs = () => {
   return (
