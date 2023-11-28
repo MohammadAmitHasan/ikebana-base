@@ -1,4 +1,5 @@
 import Button from '@/components/reuseable/Button';
+import SectionTitle from '@/components/reuseable/SectionTitle';
 import Image from 'next/image';
 
 const Design = () => {
@@ -8,9 +9,8 @@ const Design = () => {
         <Button className="!py-3">OUR COLLECTION</Button>
         <span className="text-gray-500 font-bold">FROM OVER 100 BRANDS</span>
       </div>
-      <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl  text-center mb-4 md:mb-8 ">
-        DESiGN FURNiTURE AT MiSTERDESiGN
-      </h1>
+
+      <SectionTitle>DESiGN FURNiTURE AT MiSTERDESiGN</SectionTitle>
       <div className="w-10 h-0.5 mx-auto bg-tan"></div>
       <div className="grid grid-cols-1 lg:grid-cols-2 md:mt-14 mt-4">
         <p className="leading-7 md:leading-9 text-justify xl:ml-28 md:px-10 xl:mr-14 xl:mt-24 order-2 lg:order-1">

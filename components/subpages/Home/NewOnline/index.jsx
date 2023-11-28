@@ -1,4 +1,5 @@
 import Button from '@/components/reuseable/Button';
+import SectionTitle from '@/components/reuseable/SectionTitle';
 import Image from 'next/image';
 import { useRef } from 'react';
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
@@ -12,9 +13,7 @@ const NewOnline = () => {
   const nextRef = useRef(null);
   return (
     <div className="container mx-auto">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl text-center md:mb-10">
-        NEW ONLiNE
-      </h1>
+      <SectionTitle>NEW ONLiNE</SectionTitle>
       <div className="relative mt-3">
         {/* Custom Buttons */}
         <div className="absolute top-[37%] z-50 my-auto cursor-pointer px-2">

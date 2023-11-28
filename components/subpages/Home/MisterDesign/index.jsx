@@ -1,12 +1,12 @@
+import SectionTitle from '@/components/reuseable/SectionTitle';
 import Image from 'next/image';
 import MisterDesignData from '../utils/misterDesignData';
 
 const MisterDesign = () => {
   return (
     <div className="pt-10 container mx-auto px-2">
-      <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl  text-center mb-4 md:mb-8 ">
-        MiSTER DESigN AdVANTAgES
-      </h1>
+      <SectionTitle>MiSTER DESigN AdVANTAgES</SectionTitle>
+
       <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-10 pt-10 lg:pt-14">
         {MisterDesignData?.map((mister) => (
           <div key={Math.random()} className="space-y-5">

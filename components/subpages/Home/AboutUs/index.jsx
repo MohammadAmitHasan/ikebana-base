@@ -1,4 +1,5 @@
 import Button from '@/components/reuseable/Button';
+import SectionTitle from '@/components/reuseable/SectionTitle';
 import Image from 'next/image';
 import aboutUsData from '../utils/aboutUsData';
 
@@ -7,9 +8,7 @@ const AboutUs = () => {
     <div className="pt-10 lg:pt-20 grid grid-cols-1 lg:grid-cols-3 max-w-[1920px] mx-auto gap-y-2 lg:gap-10 lg:pr-14 px-5">
       <div className="flex justify-center items-center">
         <div>
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-center mb-4 md:mb-8 ">
-            AbOUT Us
-          </h1>
+          <SectionTitle>AbOUT Us</SectionTitle>
           <p className="leading-7 md:leading-9 text-justify w-48 mx-auto">
             Our interior consultants are happy to help you! By phone, in our
             store or even on location.
